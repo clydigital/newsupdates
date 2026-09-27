@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-09-27T19:00:00+08:00",
+  "generatedAt": "2026-09-28T02:11:00+08:00",
   "timezone": "Asia/Kuala_Lumpur",
   "updates": [
+    {
+      "id": "2026-09-28-0200-irgc-indian-ocean",
+      "displayTime": "2AM MYT",
+      "date": "28 SEP 2026",
+      "title": "🌎 2AM MACRO PULSE — 28 SEP",
+      "regime": "🔴 Escalation risk | IRGC widens threatened strike zone into Indian Ocean",
+      "content": "> **NEW:** 🇮🇷 The IRGC Navy's deputy for political affairs said Iranian forces would target US vessels and destroyers **even in the Indian Ocean** if heavy fighting with the US resumes. This broadens the declared maritime threat beyond Hormuz and the Gulf of Oman, but it remains a conditional threat — not a confirmed new attack.\n\n### 🇺🇸 WHY IT MATTERS FOR THE US\nThe practical risk is a wider operating zone for US naval assets enforcing pressure on Iran. If rhetoric turns into action, the transmission is `maritime risk ↑ → Gulf shipping/insurance risk ↑ → oil/product inflation risk ↑ → Treasury/Fed pressure ↑`.\n\nThere is **no market-price confirmation yet** because US cash markets and oil futures are closed. Treat this as an escalation in tail risk, not evidence of a fresh physical supply loss.\n\n### 🛢️ OIL / IRAN\nNo new Brent, WTI, RBOB or ULSD settlement can be attributed to the statement. The key distinction remains **military threat ≠ physical disruption** until shipping flows, infrastructure or naval operations are actually affected.\n\nThe next futures reopen is the first clean test of whether markets add a larger geopolitical premium after the underwater-drone seizure plus the expanded IRGC warning.\n\n### 🥇 GOLD\nNo new tradable signal yet. The threat is supportive for geopolitical hedging, but gold still faces the competing risk that any oil-driven inflation shock pushes US yields and the dollar higher.\n\n### 👀 WHAT TO WATCH NEXT\n- Any Pentagon/CENTCOM response or change in US naval posture.\n- Any actual incident involving US vessels outside Hormuz/Gulf of Oman.\n- Brent and WTI on the futures reopen; do not infer crack spreads before same-contract product prices are available.\n- Hormuz traffic and war-risk insurance for physical confirmation.",
+      "sources": [
+        {
+          "label": "ABC News — IRGC Indian Ocean warning",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-irgc-ready-counteroffensive-us-attacks?entryId=136793216&id=136611503"
+        },
+        {
+          "label": "Al Jazeera — Iran war live",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/27/iran-war-live-tehran-awaits-official-response-as-trump-rejects-hormuz-plan"
+        }
+      ]
+    },
     {
       "id": "2026-09-27-1900-remus",
       "displayTime": "7PM MYT",
