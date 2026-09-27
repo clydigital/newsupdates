@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="US-centred macro market updates: rates, oil, AI, Asia and gold.">
+  <title>Macro Pulse</title>
+  <style>
+    :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#e8edf2;background:#0a0d10}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#172029 0,#0a0d10 42%);min-height:100vh}a{color:#a8d9ff}.site-header,main,footer{width:min(940px,calc(100% - 32px));margin:auto}.site-header{padding:52px 0 26px;display:flex;justify-content:space-between;gap:24px;align-items:flex-end;border-bottom:1px solid #27313a}.kicker,.section-label{font-size:12px;letter-spacing:.17em;color:#7d8d9c;font-weight:700}.site-header h1{margin:6px 0 4px;font-size:clamp(36px,7vw,64px);letter-spacing:-.04em}.site-header p{margin:0;color:#9cabba}.status{display:flex;gap:8px;align-items:center;font-size:13px;color:#93a3b1}.dot{width:8px;height:8px;border-radius:50%;background:#54d487;box-shadow:0 0 0 4px rgba(84,212,135,.1)}main{padding:34px 0 64px}.section-label{margin:0 0 12px}.pulse-card{background:rgba(17,23,29,.94);border:1px solid #29333d;border-radius:18px;padding:26px;box-shadow:0 18px 50px rgba(0,0,0,.22)}.pulse-card+.pulse-card{margin-top:14px}.meta{display:flex;gap:10px;color:#788896;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.pulse-card h2{font-size:clamp(23px,4vw,34px);line-height:1.05;margin:10px 0 8px;letter-spacing:-.025em}.regime{display:inline-block;padding:7px 10px;border-radius:999px;background:#1d2730;color:#cbd5df;font-size:13px;margin-bottom:18px}.body h3{margin:23px 0 6px;font-size:16px}.body p,.body li,.body blockquote{line-height:1.65;color:#c4ced7}.body p{margin:7px 0}.body blockquote{margin:12px 0;padding:10px 14px;border-left:3px solid #78b7e5;background:#101820;border-radius:0 8px 8px 0}.body ul{padding-left:21px}.body code{font:inherit;background:#1b242c;border-radius:5px;padding:2px 5px}.sources{display:flex;flex-wrap:wrap;gap:10px;border-top:1px solid #29333d;margin-top:24px;padding-top:14px;font-size:12px}.sources span{color:#6f808e;text-transform:uppercase;letter-spacing:.1em}.archive{margin-top:38px}.compact{padding:20px}.compact h2{font-size:24px}.compact .body{font-size:14px}.loading,.empty,.error{color:#7f8e9b}footer{border-top:1px solid #27313a;padding:20px 0 34px;display:flex;justify-content:space-between;color:#6e7d89;font-size:12px}@media(max-width:700px){.site-header{align-items:flex-start;flex-direction:column}.pulse-card{padding:20px}}
+  </style>
+</head>
+<body>
+  <header class="site-header"><div><div class="kicker">US-CENTRED MARKET WATCH</div><h1>Macro Pulse</h1><p>High-signal macro, rates, energy and cross-asset updates.</p></div><div class="status"><span class="dot"></span><span>07:30–23:30 MYT · every 2 hours</span></div></header>
+  <main>
+    <section><div class="section-label">LATEST</div><div id="latest" class="pulse-card loading">Loading latest pulse…</div></section>
+    <section class="archive"><div class="section-label">ARCHIVE</div><div id="archive"></div></section>
+  </main>
+  <footer><span>Market information only · primary sources preferred</span><a href="https://github.com/clydigital/newsupdates">GitHub</a></footer>
+  <script>
+    function esc(s){return String(s||'').replace(/[&<>\"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#039;'}[c]})}
+    function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/`(.+?)`/g,'<code>$1</code>')}
+    function renderBody(md){var lines=String(md||'').split('\n'),html='',inList=false;function close(){if(inList){html+='</ul>';inList=false}};lines.forEach(function(raw){var line=raw.trimEnd();if(!line.trim()){close();return}if(line.indexOf('### ')===0){close();html+='<h3>'+inline(line.slice(4))+'</h3>';return}if(line.indexOf('> ')===0){close();html+='<blockquote>'+inline(line.slice(2))+'</blockquote>';return}if(line.indexOf('- ')===0){if(!inList){html+='<ul>';inList=true}html+='<li>'+inline(line.slice(2))+'</li>';return}close();html+='<p>'+inline(line)+'</p>'});close();return html}
+    function card(u,compact){var sources='';if(u.sources&&u.sources.length){sources='<div class="sources"><span>Sources</span>'+u.sources.map(function(s){return '<a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.label)+'</a>'}).join('')+'</div>'}return '<article class="pulse-card '+(compact?'compact':'')+'"><div class="meta"><span>'+esc(u.displayTime)+'</span><span>'+esc(u.date)+'</span></div><h2>'+inline(u.title||'Macro Pulse')+'</h2><div class="regime">'+inline(u.regime||'')+'</div><div class="body">'+renderBody(u.content||'')+'</div>'+sources+'</article>'}
+    fetch('./data/updates.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('feed');return r.json()}).then(function(data){var us=Array.isArray(data.updates)?data.updates:[];var latest=document.getElementById('latest');if(!us.length){latest.className='pulse-card empty';latest.textContent='No market-moving pulse has been published yet.';return}latest.outerHTML=card(us[0],false);document.getElementById('archive').innerHTML=us.slice(1).map(function(u){return card(u,true)}).join('')}).catch(function(){var latest=document.getElementById('latest');latest.className='pulse-card error';latest.textContent='Unable to load the update feed.'})
+  </script>
+</body>
+</html>
