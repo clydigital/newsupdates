@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-28T15:30:00+08:00",
+  "generatedAt": "2026-09-29T04:00:00+08:00",
   "timezone": "Asia/Kuala_Lumpur",
   "updates": [
+    {
+      "id": "2026-09-29-0400-cross-asset-confirmation",
+      "displayTime": "4:00AM MYT",
+      "date": "29 SEP 2026",
+      "title": "🌎 4:00AM MACRO PULSE — 29 SEP",
+      "regime": "🔴 Rates + energy pressure confirmed | Gold breaks lower, equities fade",
+      "content": "> **NEW:** 🇺🇸 The US cash session supplied the confirmation that was missing from the 15:30 MYT pulse. By late morning New York trading, the S&P 500 was down about **0.8%**, the Nasdaq about **0.9%**, the US 10-year yield had reached roughly **5.26%**, and gold was down almost **4%** near **$4,123**. Reuters later reported spot gold had fallen as much as **4% to $4,111**, its lowest since 5 August, while the 10-year touched its highest level since June 2007 before paring gains.\n\n### 🇺🇸 US — CROSS-ASSET CONFIRMATION\nThe important change is no longer just `oil ↑ + yields ↑`. Duration-sensitive risk assets and gold have now reacted as the rates channel would normally imply.\n\n`oil / product inflation risk ↑ → tighter-policy expectations ↑ → Treasury yields ↑ → duration pressure ↑`\n\nThis strengthens the rates-led interpretation, but it does **not** prove oil is the only driver of the long-end move. Treasury supply, term-premium pressure and positioning remain competing explanations that need separate evidence.\n\n### 🛢️ OIL / IRAN\nReuters reported Brent above **$107** during the session as the US-Iran standoff kept an energy risk premium in the market. That sits beside the earlier Kpler evidence that Middle East crude exports have recovered materially.\n\nThat is the key contradiction: `physical crude availability improving` while `oil/rates stress remains elevated`.\n\nThe first candidates to test are refined-product scarcity, geopolitical/insurance premia, and broader Treasury-market pressure. Do not collapse them into one explanation yet.\n\n### 🥇 GOLD\nGold is providing one of the clearest confirmations. Higher Treasury yields and a firm dollar overwhelmed safe-haven support, pushing spot gold to a seven-week low.\n\nThis is consistent with the standard real-rate/USD transmission, but the next check is persistence: if gold stabilises while yields remain above today's highs, the desk should reopen positioning and safe-haven explanations.\n\n### 👀 WHAT TO WATCH NEXT\n- **US 10Y 5.20%–5.26%:** sustained trade above this zone keeps the duration/rates constraint active.\n- **Gold $4,111:** reclaim versus continuation lower tests whether today's move was a one-session liquidation or a broader rates repricing.\n- **S&P / Nasdaq close:** continued weakness would strengthen the cross-asset confirmation; a sharp late reversal would reopen positioning/technical explanations.\n- **Brent $105–108:** persistence matters more than the intraday spike.\n- **ULSD/RBOB vs WTI:** verify same-contract product pricing before attributing the remaining inflation premium to downstream scarcity.",
+      "sources": [
+        {
+          "label": "Reuters — gold, Treasury yields and tighter-policy expectations",
+          "url": "https://www.marketscreener.com/news/gold-s-lustre-dims-as-treasury-yields-surge-markets-bet-on-higher-fed-rates-ce785adcd18ef724"
+        },
+        {
+          "label": "Reuters — oil and higher-for-longer Treasury repricing",
+          "url": "https://www.marketscreener.com/news/stocks-fall-as-middle-east-stalemate-boosts-oil-ce785adcdd89f725"
+        },
+        {
+          "label": "Motley Fool — late-morning US equity and 10Y snapshot",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/09/28/stock-market-midday-sept-28-stocks-slide-as-yields-rise-mongodb-tumbles/"
+        }
+      ]
+    },
     {
       "id": "2026-09-28-1530-mideast-export-rebound",
       "displayTime": "3:30PM MYT",
