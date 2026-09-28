@@ -21,3 +21,9 @@ Only genuinely market-moving developments are published. Routine price noise, re
 - Gold when relevant
 
 The site reads directly from `data/updates.json`.
+
+## Publishing reliability
+
+MacroPulse treats research qualification and GitHub publication as separate states. If a qualifying pulse cannot be written, the complete publishable pulse is retained as `UNPUBLISHED_PULSE` and retried before fresh research on the next run. A pulse is considered published only after `data/updates.json` is re-fetched and the exact pulse ID is verified.
+
+The page header reports the timestamp of the most recent successful publication rather than implying that the scheduler itself is healthy. A long publication gap can mean either no qualifying market change or a publishing-path failure; task run status is the source of truth for that distinction.
