@@ -1,7 +1,53 @@
 {
-  "generatedAt": "2026-09-29T04:00:00+08:00",
+  "generatedAt": "2026-09-29T04:40:00+08:00",
   "timezone": "Asia/Kuala_Lumpur",
   "updates": [
+    {
+      "id": "2026-09-29-0440-products-china-desk-reframe",
+      "displayTime": "4:40AM MYT",
+      "date": "29 SEP 2026",
+      "title": "🌎 4:40AM MACRO PULSE — 29 SEP",
+      "regime": "🔴 Product-supply inflation persists | China détente is a partial offset",
+      "content": "> **NEW RESEARCH READ:** An extended Live Desk pass changes the framing of the energy shock. Improving Middle East crude exports do **not** mean the inflation problem has cleared: the tighter bottleneck is increasingly **refining / distillates**, while the Trump–Xi package adds a partial disinflationary offset through selected tariff relief and a push for more Chinese refined-product supply.\n\n### 🛢️ OIL / PRODUCTS — DIESEL IS THE BOTTLENECK\nThree different stories have been getting mixed together:\n\n1. **Russia refinery output cuts:** drone attacks forced major Russian diesel-producing refineries to cut or halt runs.\n2. **Russia export restrictions:** Moscow restricted diesel, gasoline and jet-fuel exports to protect domestic supply.\n3. **US diesel export-ban proposal:** President Trump backed the idea of restricting US diesel exports, but **no flat US ban is currently in force**. The White House denied a report that a 90-day ban was being prepared, while Energy Secretary Chris Wright warned a blanket ban could force US refineries to reduce throughput and push up gasoline and jet-fuel prices.\n\nThat distinction matters because diesel is a **refining-capacity problem**, not just a crude-oil problem.\n\n`crude availability improves → crude scarcity risk ↓`\n\nbut\n\n`refinery outages + low distillate inventories + export restrictions → diesel / crack spreads ↑ → freight + agriculture + industrial costs ↑ → inflation pressure persists`\n\nEIA's September outlook forecast US distillate inventories falling below **100 million barrels** and remaining below the 2021–25 five-year low through end-2026 and most of 2027. The mechanism is therefore consistent with the Live Desk's **Refining / Products → Inflation Transmission → US Rate Regime** chain.\n\n### 🇨🇳 CHINA / US TRADE — DÉTENTE, NOT A FULL RESET\nThe Trump–Xi package is more meaningful than a ceremonial summit, but it is narrower than a broad trade deal.\n\nThe US and China extended their trade truce to **10 January 2027**. Their Board of Trade also recommended more favourable tariff treatment for **$30 billion of non-sensitive goods in each direction**. The key word is **recommended**: the White House says the products will be considered for reduced tariff treatment through each country's domestic legal process, so this should not be treated as an already-implemented blanket tariff cut.\n\nFor US imports, the list includes consumer goods such as small appliances, toys, holiday decorations and child car seats. That is a modest goods-inflation relief channel at the margin.\n\nPresident Trump also urged President Xi to **increase production of refined petroleum products to stabilise global supply**. That links the China agreement directly to the diesel story. China had already relaxed fuel-export controls: August refined-product exports reached **6.01 million tonnes**, with diesel exports **1.33 million tonnes**, while September exports were expected to remain above 4 million tonnes.\n\n`China refined-product output / exports ↑ → Asian product supply ↑ → diesel scarcity premium ↓`\n\nThat is a real potential offset, but it needs confirmation in actual export volumes and regional diesel cracks.\n\n### 🤖 AI / US–CHINA POLICY\nThe two governments also created a US–China **Super Intelligence dialogue** and an incident-communication channel, with another exchange due by November.\n\nFor the Live Desk's **US–China AI Industrial Competition** regime, this lowers accident / escalation risk at the margin. It does **not** end the industrial competition: semiconductor access, export controls, memory, power and AI infrastructure returns remain separate unresolved constraints.\n\nThere is also a cost-of-capital bridge. Reuters reports AI-linked corporate bonds trading around **115 bp** over Treasuries versus about **78 bp** for the broader market, while hyperscaler debt issuance is projected to rise to roughly **$420 billion next year**. Cheaper AI usage can coexist with more expensive financing.\n\n### 🇺🇸 US — WHY RATES CAN STAY HIGH EVEN IF CRUDE FLOWS IMPROVE\nThe prior 4:00AM pulse showed the tape confirming the inflation/rates channel: equities weakened, the 10Y pushed toward **5.26%**, and gold sold off sharply.\n\nThe extended read now separates the mechanisms:\n\n`crude logistics improving → first-order oil scarcity pressure ↓`\n\n`diesel / product scarcity persists → realised inflation pressure stays elevated`\n\n`Treasury supply / term premium + AI financing demand → long-end pressure can persist independently`\n\nSo falling crude scarcity alone is **not sufficient** to call the US rate regime easier.\n\n### 🥇 GOLD\nGold's current selloff is consistent with the cyclical **real-yield / USD opportunity-cost** channel. That does not erase the structural reserve-diversification story: World Gold Council data show global gold ETF holdings reached a record **4,189 tonnes** in August after a 121-tonne monthly increase.\n\nThe desk should therefore keep two horizons separate: **cyclical rates headwind now; structural diversification demand still intact unless official / ETF flows reverse.**\n\n### 👀 WHAT TO WATCH NEXT\n- **US diesel policy:** voluntary measures or a targeted restriction versus any renewed push for a flat export ban.\n- **China refined-product exports:** whether September / October diesel shipments actually rise enough to compress regional product cracks.\n- **ULSD versus WTI:** the cleanest market test of whether the bottleneck remains refining rather than crude.\n- **EIA distillate stocks and refinery utilisation:** whether inventories begin rebuilding.\n- **US–China 30-for-30:** actual tariff implementation dates and product treatment, not just the recommendation list.\n- **AI policy:** whether the November dialogue changes export-control policy; do not assume the safety channel changes chip restrictions.\n- **US10Y / real yields:** if long yields remain high while product prices ease, Treasury supply / term premium and financing demand gain explanatory weight.",
+      "sources": [
+        {
+          "label": "White House — Trump–Xi state visit fact sheet",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/"
+        },
+        {
+          "label": "White House — U.S.–China Board of Trade 30-for-30",
+          "url": "https://www.whitehouse.gov/releases/2026/09/u-s-china-board-of-trade/"
+        },
+        {
+          "label": "USTR — Board of Trade recommendations",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/september/ambassador-greer-issues-statement-announcement-recommendations-us-china-board-trade"
+        },
+        {
+          "label": "Reuters — White House denies flat US diesel export-ban plan",
+          "url": "https://www.investing.com/news/commodities-news/white-house-denies-report-us-is-considering-a-diesel-export-ban-4913764"
+        },
+        {
+          "label": "Reuters — Russia refinery output cuts after drone strikes",
+          "url": "https://www.reuters.com/business/energy/half-russias-top-diesel-producing-refineries-cut-back-output-after-drone-strikes-2026-09-15/"
+        },
+        {
+          "label": "EIA — September STEO distillate outlook",
+          "url": "https://www.eia.gov/outlooks/steo/report/petro_prod.php"
+        },
+        {
+          "label": "Reuters — China refined-fuel exports under relaxed controls",
+          "url": "https://www.reuters.com/business/energy/china-maintains-stable-refined-fuel-exports-under-relaxed-controls-sources-say-2026-09-02/"
+        },
+        {
+          "label": "Reuters — AI debt spreads and hyperscaler issuance",
+          "url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/"
+        },
+        {
+          "label": "World Gold Council — August ETF holdings",
+          "url": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/09"
+        }
+      ]
+    },
     {
       "id": "2026-09-29-0400-cross-asset-confirmation",
       "displayTime": "4:00AM MYT",
