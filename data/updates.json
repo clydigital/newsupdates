@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-28T11:30:00+08:00",
+  "generatedAt": "2026-09-28T15:30:00+08:00",
   "timezone": "Asia/Kuala_Lumpur",
   "updates": [
+    {
+      "id": "2026-09-28-1530-mideast-export-rebound",
+      "displayTime": "3:30PM MYT",
+      "date": "28 SEP 2026",
+      "title": "🌎 3:30PM MACRO PULSE — 28 SEP",
+      "regime": "🟠 Physical crude relief vs persistent inflation premium",
+      "content": "> **NEW:** 🛢️ Kpler data reported by Reuters show crude exports from key Middle East producers rebounded to **12.8 million bpd in September**, the highest since the US–Iran war began in February. Hormuz exports are set to reach about **7.4 million bpd**, while Saudi shipments are tracking near **5.4 million bpd**, up from about **2.45 million bpd in August**.\n\n### 🛢️ OIL / IRAN\nThis is an important physical-market counter-signal to the geopolitical headlines. Saudi Arabia and the UAE are moving more crude despite the conflict, and **19 VLCCs carrying roughly 2 million barrels each exited Hormuz last week**.\n\n`physical crude exports ↑ → outright crude scarcity risk ↓`\n\n`but Brent ~$107 + refining constraints + diesel stress → inflation risk stays elevated`\n\nThe key point is that the market is no longer dealing with a simple 'Hormuz closed = crude unavailable' setup. Crude logistics are adapting faster than the refining/product system.\n\n### 🇺🇸 US\nBrent remains around **$106–107** and the US 10-year is still above **5.2%**, so the inflation/rates channel has not relaxed even as physical crude exports recover.\n\nThat creates a more nuanced US signal: better Gulf crude availability is disinflationary at the margin, but high product prices and elevated oil benchmarks can still keep Fed expectations, yields and the USD firm.\n\n### 👀 WHAT TO WATCH NEXT\n- Whether Middle East exports stay near **12.8 mb/d** or fade after September's catch-up.\n- Whether Brent can stay near **$107** despite improving physical crude flows.\n- Same-contract ULSD/RBOB versus WTI once reliable product pricing is available.\n- US 10Y above **5.2%**: if yields stay elevated while physical crude availability improves, the rates problem is broader than crude scarcity alone.",
+      "sources": [
+        {
+          "label": "Reuters/Kpler — Middle East crude exports rebound",
+          "url": "https://au.investing.com/news/commodities-news/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments-4660584"
+        },
+        {
+          "label": "Trading Economics — Brent",
+          "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "label": "Moneycontrol — US 10Y above 5.2%",
+          "url": "https://www.moneycontrol.com/news/business/banks/rupee-opens-7-paise-lower-at-95-88-against-the-dollar-as-brent-climbs-again-14039661.html"
+        }
+      ]
+    },
     {
       "id": "2026-09-28-1130-rates-energy-confirmation",
       "displayTime": "11:30AM MYT",
